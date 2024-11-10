@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{973610F1-F256-47ED-98A2-1B637D59EE7A}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ABBAB705-8AFB-4902-8433-EA0960B990EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{782AF665-5F30-4092-8BCB-98941607D65B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VFX.WebAPI", "src\VFX.WebAPI\VFX.WebAPI.csproj", "{6495E8A8-C19E-47C4-8D14-8A25CD34697E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VFX.Application", "src\VFX.Application\VFX.Application.csproj", "{95C7E27D-5494-4B3C-880C-94EBC4870944}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VFX.Domain", "src\VFX.Domain\VFX.Domain.csproj", "{80AFA3B1-4B8C-41F3-BA02-11A69E9CE553}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VFX.Infrastructure", "src\VFX.Infrastructure\VFX.Infrastructure.csproj", "{5EF76074-941A-4528-87D0-2B26487BA72A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VFX.Unittest", "src\tests\VFX.Unittest\VFX.Unittest.csproj", "{084D83A1-FAFE-42FE-A19E-C8FEE81748AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6495E8A8-C19E-47C4-8D14-8A25CD34697E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6495E8A8-C19E-47C4-8D14-8A25CD34697E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6495E8A8-C19E-47C4-8D14-8A25CD34697E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6495E8A8-C19E-47C4-8D14-8A25CD34697E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C7E27D-5494-4B3C-880C-94EBC4870944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C7E27D-5494-4B3C-880C-94EBC4870944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C7E27D-5494-4B3C-880C-94EBC4870944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C7E27D-5494-4B3C-880C-94EBC4870944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AFA3B1-4B8C-41F3-BA02-11A69E9CE553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AFA3B1-4B8C-41F3-BA02-11A69E9CE553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AFA3B1-4B8C-41F3-BA02-11A69E9CE553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AFA3B1-4B8C-41F3-BA02-11A69E9CE553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF76074-941A-4528-87D0-2B26487BA72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF76074-941A-4528-87D0-2B26487BA72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF76074-941A-4528-87D0-2B26487BA72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF76074-941A-4528-87D0-2B26487BA72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084D83A1-FAFE-42FE-A19E-C8FEE81748AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084D83A1-FAFE-42FE-A19E-C8FEE81748AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084D83A1-FAFE-42FE-A19E-C8FEE81748AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084D83A1-FAFE-42FE-A19E-C8FEE81748AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6495E8A8-C19E-47C4-8D14-8A25CD34697E} = {ABBAB705-8AFB-4902-8433-EA0960B990EC}
+		{95C7E27D-5494-4B3C-880C-94EBC4870944} = {ABBAB705-8AFB-4902-8433-EA0960B990EC}
+		{80AFA3B1-4B8C-41F3-BA02-11A69E9CE553} = {ABBAB705-8AFB-4902-8433-EA0960B990EC}
+		{5EF76074-941A-4528-87D0-2B26487BA72A} = {ABBAB705-8AFB-4902-8433-EA0960B990EC}
+		{084D83A1-FAFE-42FE-A19E-C8FEE81748AD} = {782AF665-5F30-4092-8BCB-98941607D65B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D979304B-41E9-49AC-8286-D0517E33DA4C}
+	EndGlobalSection
+EndGlobal

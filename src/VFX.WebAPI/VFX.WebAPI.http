@@ -1,0 +1,6 @@
+@VFX.WebAPI_HostAddress = http://localhost:5205
+
+GET {{VFX.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
